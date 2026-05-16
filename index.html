@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#8FA691">
+</head>
+<body> <! -- O que aparece na tela -->
+
+  <div class="container">
+    <h1>Pomodoro</h1>
+
+    <div class="timer-container">
+      <button id="add">+</button>
+      <div id="timer">25:00</div>
+      <button id="remove">-</button>
+    </div>
+
+    <div class="buttons">
+      <button id="start">Iniciar</button>
+      <button id="pause">Pausar</button>
+      <button id="reset">Resetar</button>
+    </div>
+
+  </div>
+
+    <!-- Alerta 1: fim do tempo de estudo -->
+    <div id="alertaEstudo" class="alerta escondido">
+        <div class="alerta-conteudo">
+            <p>Tempo esgotado! Hora de fazer uma pausa.</p>
+            <button id="fecharAlertaEstudo">OK</button>
+        </div>
+    </div>
+
+    <!-- Alerta 2: fim da pausa -->
+    <div id="alertaPausa" class="alerta escondido">
+        <div class="alerta-conteudo">
+            <p>Pausa encerrada! Hora de voltar ao estudo.</p>
+            <button id="fecharAlertaPausa">Continuar estudando</button>
+        </div>
+    </div>
+
+<audio id="alarme" src="alarm.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
