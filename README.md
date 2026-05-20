@@ -2,7 +2,7 @@
 
 Um timer Pomodoro simples e funcional feito com HTML, CSS e JavaScript puro — sem frameworks ou dependências externas.
 
-Desenvolvido como projeto de prática de desenvolvimento web front-end.
+Desenvolvido como projeto de prática de desenvolvimento web front-end. 
 
 ---
 
