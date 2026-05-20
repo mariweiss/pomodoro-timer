@@ -1,4 +1,4 @@
-# 🍅 Pomodoro Timer 🍅
+# 🍅 Pomodoro Timer 
 
 Um timer Pomodoro simples e funcional feito com HTML, CSS e JavaScript puro — sem frameworks ou dependências externas.
 
