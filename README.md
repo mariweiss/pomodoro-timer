@@ -55,8 +55,8 @@ pomodoro/
 
 ---
 
-## Fluxo da aplicação
-
+## Aplicação
+ https://mariweiss.github.io/pomodoro-timer/
 ```
 [Estudo] → timer zera → alerta + alarme
     → clica OK → [Pausa 5min] → timer zera → alerta + alarme
